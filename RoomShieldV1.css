@@ -1,0 +1,63 @@
+h1 {
+    color:  #3498db;
+    text-align: center;
+    font-size: 100px;
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+body {
+    background-image: url('https://s2.best-wallpaper.net/wallpaper/1366x768/1807/Forest-trees-river-nature-landscape-art-picture_1366x768.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+    .search-bar {
+        width: 500px;
+        height: 30px;
+        font-size: 20px;
+        background-color: transparent;
+        backdrop-filter: blur(15px);
+        border: 2px solid #3498db ;
+        border-radius: 100px;
+        margin: 0 auto;
+        color: #3498db; 
+        padding: 5px;
+        padding-left: 15px; 
+    }
+
+
+.search {
+    text-align: center;
+}
+
+.connect-btn:hover {
+cursor: pointer;
+}
+
+.connect-btn {
+width: 130px;
+height: 30px;
+border-radius: 30px;
+border: 2px solid  #3498db;
+position: absolute;
+top: 10px; 
+right: 10px; 
+background-color: transparent;
+content: "Se connecter";
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+backdrop-filter: blur(3px);
+
+}
+
+
+
+
+
+
+
+
+
+

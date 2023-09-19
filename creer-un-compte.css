@@ -1,0 +1,95 @@
+body
+{
+background-color: gray;
+
+}
+
+
+        /* Style pour le corps de la page */
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Style pour le carré bleu */
+        .blue-square {
+            
+            background-color: blue;
+            width: 500px;
+            height: 700px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            
+        }
+
+        /* Style pour le texte, la barre de recherche et le bouton */
+        .blue-square h1,
+        .search-bar,
+        .search-button {
+            margin: 10px 0;
+        }
+
+        /* Style pour la barre de recherche */
+        .username-bar {
+            font-size: 16px;
+            border: 2px solid rgba(255, 255, 255, .2);
+            padding: 5px 15px;
+            position: absolute;
+            top: 30%;
+            left: 36.5%;
+            width: 400px;
+            height: 45px;
+            border-radius: 60px;
+            background-color: transparent;
+            color: black;
+        }
+
+        .email-bar{
+            font-size: 16px;
+            border: 2px solid rgba(255, 255, 255, .2);
+            padding: 5px 15px;
+            position: absolute;
+            top: 45%;
+            left: 36.5%;
+            width: 400px;
+            height: 45px;
+            border-radius: 60px;
+            background-color: transparent;
+            color: black;
+
+        }
+
+        .password-bar{
+            font-size: 16px;
+            border: 2px solid rgba(255, 255, 255, .2);
+            padding: 5px 15px;
+            position: absolute;
+            top: 60%;
+            left: 36.5%;
+            width: 400px;
+            height: 45px;
+            border-radius: 60px;
+            background-color: transparent;
+            color: black;
+
+        }
+
+
+        .search-button {
+            background-color: #007bff;
+            color: white;
+            width: 170px;
+            height: 40px;
+            border: none;
+            border-radius: 60px;
+            cursor: pointer;
+            position: absolute;
+            top: 70%;
+            left: 44%;
+            
+        }
